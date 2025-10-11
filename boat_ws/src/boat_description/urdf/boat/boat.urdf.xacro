@@ -10,13 +10,19 @@
     <xacro:include filename="$(find boat_description)/urdf/boat/sensor/lidar.urdf.xacro"/>
     <xacro:include filename="$(find boat_description)/urdf/boat/actuator/wheel.urdf.xacro"/>
     <xacro:include filename="$(find boat_description)/urdf/boat/actuator/caster.urdf.xacro"/>
+    <!-- plugin -->
+    <xacro:include filename="$(find boat_description)/urdf/boat/plugin/gazebo_control_plugin.xacro"/>
     <!-- base macro -->
     <xacro:base_xacro length="0.12" radius="0.10"/>
+    <!-- sensor -->
     <xacro:imu_xacro xyz="0.0 -0.04 0.06"/>
     <xacro:camera_xacro xyz="0.10 0.0 0.06"/>
     <xacro:lidar_xacro xyz="0.0 0.0 0.11"/>
+    <!-- actuators -->
     <xacro:wheel_xacro wheel_name="left_wheel" xyz="0.0 0.1 -0.06"/>
     <xacro:wheel_xacro wheel_name="right_wheel" xyz="0.0 -0.1 -0.06"/>
     <xacro:caster_xacro caster_name="front_caster" xyz="0.08 0.0 -0.06"/>
     <xacro:caster_xacro caster_name="back_caster" xyz="-0.08 0.0 -0.06"/>
+    
+    <xacro:gazebo_control_plugin/>
 </robot>

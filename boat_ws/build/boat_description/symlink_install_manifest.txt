@@ -4,6 +4,7 @@
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/actuator/wheel.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/base.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/boat.urdf.xacro
+/root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/plugin/gazebo_control_plugin.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/camera.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/imu.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/lidar.urdf.xacro
