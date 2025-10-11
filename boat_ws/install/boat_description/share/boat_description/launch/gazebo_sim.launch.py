@@ -1,0 +1,1 @@
+/root/Roboboat-simulation/boat_ws/src/boat_description/launch/gazebo_sim.launch.py

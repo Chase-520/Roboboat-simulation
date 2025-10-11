@@ -1,0 +1,9 @@
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/uninstall.dir
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/boat_description_uninstall.dir
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/test.dir
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/edit_cache.dir
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/rebuild_cache.dir
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/list_install_components.dir
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/install.dir
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/install/local.dir
+/root/Roboboat-simulation/boat_ws/build/boat_description/CMakeFiles/install/strip.dir

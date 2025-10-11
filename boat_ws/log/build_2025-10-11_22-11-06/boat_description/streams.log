@@ -1,0 +1,39 @@
+[0.021s] Invoking command in '/root/Roboboat-simulation/boat_ws/build/boat_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Roboboat-simulation/boat_ws/build/boat_description -- -j12 -l12
+[0.078s] Invoked command in '/root/Roboboat-simulation/boat_ws/build/boat_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Roboboat-simulation/boat_ws/build/boat_description -- -j12 -l12
+[0.116s] Invoking command in '/root/Roboboat-simulation/boat_ws/build/boat_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Roboboat-simulation/boat_ws/build/boat_description
+[0.126s] -- Install configuration: ""
+[0.127s] -- Execute custom install script
+[0.128s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/launch/display_robot.launch.py
+[0.128s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/launch/gazebo_sim.launch.py
+[0.128s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/actuator/caster.urdf.xacro
+[0.129s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/actuator/wheel.urdf.xacro
+[0.129s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/base.urdf.xacro
+[0.129s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/boat.urdf.xacro
+[0.129s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/camera.urdf.xacro
+[0.129s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/imu.urdf.xacro
+[0.129s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/lidar.urdf.xacro
+[0.129s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/common_inertia.xacro
+[0.130s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/first_robot.gv
+[0.130s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/first_robot.pdf
+[0.130s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/first_robot.urdf
+[0.130s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/first_robot.xacro
+[0.131s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/config/display_robot_model.rviz
+[0.131s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/world/first_world.world
+[0.131s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/world/random_room/model.config
+[0.131s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/world/random_room/model.sdf
+[0.132s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/ament_index/resource_index/package_run_dependencies/boat_description
+[0.132s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/ament_index/resource_index/parent_prefix_path/boat_description
+[0.132s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/environment/ament_prefix_path.dsv
+[0.133s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/environment/path.sh
+[0.133s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/environment/path.dsv
+[0.133s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/local_setup.bash
+[0.133s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/local_setup.sh
+[0.133s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/local_setup.zsh
+[0.133s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/local_setup.dsv
+[0.134s] -- Symlinking: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/package.dsv
+[0.144s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/ament_index/resource_index/packages/boat_description
+[0.144s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/cmake/boat_descriptionConfig.cmake
+[0.145s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/cmake/boat_descriptionConfig-version.cmake
+[0.145s] -- Up-to-date symlink: /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/package.xml
+[0.147s] Invoked command in '/root/Roboboat-simulation/boat_ws/build/boat_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Roboboat-simulation/boat_ws/build/boat_description

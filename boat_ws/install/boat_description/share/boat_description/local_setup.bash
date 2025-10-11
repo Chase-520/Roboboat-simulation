@@ -1,0 +1,1 @@
+/root/Roboboat-simulation/boat_ws/build/boat_description/ament_cmake_environment_hooks/local_setup.bash

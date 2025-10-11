@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot name="first_robot">
+    <!-- Ctrl + / to create comment -->
+    <!-- robot body -->
+    <link name="base_link">
+        <!-- visual of parts -->
+        <visual>
+            <!-- offset and rotation relative to self center -->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <!-- geometry description -->
+            <geometry>
+                <!-- box/cylinder/... -->
+                <cylinder radius="0.1" length="0.12"/>
+            </geometry>
+            <!-- Material description -->
+            <material name="white">
+                <color rgba="1.0 1.0 1.0 0.5"/>
+            </material>
+        </visual>
+    </link>
+    <!-- Second part of the robot: IMU -->
+    <link name="imu_link">
+    <!-- visual of parts -->
+    <visual>
+        <!-- offset and rotation relative to self center -->
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <!-- geometry description -->
+        <geometry>
+            <!-- a box -->
+            <box size="0.02 0.02 0.02"/>
+        </geometry>
+        <!-- Material description -->
+        <material name="black">
+            <color rgba="0.0 0.0 0.0 0.5"/>
+        </material>
+    </visual>
+    </link>
+    <!-- Joint to connect parts -->
+    <!-- Type is either fixed or revolute-->
+    <joint name="imu_joint" type="fixed">
+        <origin xyz="0.0 0.0 0.03" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+    </joint>
+</robot>

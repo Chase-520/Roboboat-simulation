@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:include filename="$(find boat_description)/urdf/common_inertia.xacro"/>
+    <xacro:macro name="caster_xacro" params="caster_name xyz">
+        <!-- Second part of the robot: IMU -->
+        <link name="${caster_name}_link">
+            <!-- visual of parts -->
+            <visual>
+                <!-- offset and rotation relative to self center -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- geometry description -->
+                <geometry>
+                    <sphere radius="0.016"/>
+                </geometry>
+                <!-- Material description -->
+                <material name="yellow">
+                    <color rgba="1.0 0.5 0.0 0.8"/>
+                </material>
+            </visual>
+            <collision>
+                <!-- offset and rotation relative to self center -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- geometry description -->
+                <geometry>
+                    <sphere radius="0.016"/>
+                </geometry>
+                <!-- Material description -->
+                <material name="yellow">
+                    <color rgba="1.0 0.5 0.0 0.8"/>
+                </material>
+            </collision>
+            <xacro:sphere_inertia m="0.05" r="0.016"/>
+        </link>
+
+        <!-- Joint to connect parts -->
+        <!-- Type is either fixed or revolute-->
+        <joint name="${caster_name}_joint" type="fixed">
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_link"/>
+            <child link="${caster_name}_link"/>
+            <axis xyz="0.0 1.0 0.0"/>
+        </joint>
+
+        <gazebo reference="${caster_name}_link">
+            <mu1 value="0.0"/>
+            <mu2 value="0.0"/>
+            <kp value="1000000000.0"/>
+            <kd value="1.0"/>
+        </gazebo>
+    </xacro:macro>
+</robot>
