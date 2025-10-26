@@ -11,7 +11,9 @@
     <xacro:include filename="$(find boat_description)/urdf/boat/actuator/wheel.urdf.xacro"/>
     <xacro:include filename="$(find boat_description)/urdf/boat/actuator/caster.urdf.xacro"/>
     <!-- plugin -->
-    <xacro:include filename="$(find boat_description)/urdf/boat/plugin/gazebo_control_plugin.xacro"/>
+    <!-- <xacro:include filename="$(find boat_description)/urdf/boat/plugin/gazebo_control_plugin.xacro"/> -->
+    <xacro:include filename="$(find boat_description)/urdf/boat/plugin/gazebo_sensor_plugin.xacro"/>
+    <xacro:include filename="$(find boat_description)/urdf/boat/boat.ros2_control.xacro"/>
     <!-- base macro -->
     <xacro:base_xacro length="0.12" radius="0.10"/>
     <!-- sensor -->
@@ -24,5 +26,7 @@
     <xacro:caster_xacro caster_name="front_caster" xyz="0.08 0.0 -0.06"/>
     <xacro:caster_xacro caster_name="back_caster" xyz="-0.08 0.0 -0.06"/>
     
-    <xacro:gazebo_control_plugin/>
+    <!-- <xacro:gazebo_control_plugin/> -->
+    <xacro:gazebo_sensor_plugin/>
+    <xacro:boat_ros2_control/>
 </robot>

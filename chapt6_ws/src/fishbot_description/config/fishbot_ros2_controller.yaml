@@ -1,0 +1,22 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    use_sim_time: true
+
+    fishbot_joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+      use_sim_time: true
+
+    omni_wheel_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+omni_wheel_controller:
+  ros__parameters:
+    type: velocity_controllers/JointGroupVelocityController
+    joints:
+      - left_wheel_joint
+      - right_wheel_joint
+      - front_wheel_joint
+      - back_wheel_joint
+    command_interfaces:
+      - velocity

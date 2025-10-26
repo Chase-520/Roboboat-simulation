@@ -3,8 +3,10 @@
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/actuator/caster.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/actuator/wheel.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/base.urdf.xacro
+/root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/boat.ros2_control.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/boat.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/plugin/gazebo_control_plugin.xacro
+/root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/plugin/gazebo_sensor_plugin.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/camera.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/imu.urdf.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/boat/sensor/lidar.urdf.xacro
@@ -14,6 +16,7 @@
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/first_robot.urdf
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/urdf/first_robot.xacro
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/config/display_robot_model.rviz
+/root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/config/ros2_controller.yaml
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/world/first_world.world
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/world/random_room/model.config
 /root/Roboboat-simulation/boat_ws/install/boat_description/share/boat_description/world/random_room/model.sdf
