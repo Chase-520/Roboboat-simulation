@@ -3,3 +3,5 @@ build/
 log/
 boat_ws/
 nav_ws/
+.vscode/
+__pycache__/
